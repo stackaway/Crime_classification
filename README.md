@@ -2,8 +2,8 @@
   <h1>Crime Classification</h1>
 </div>
 
-## AIM
-The aim of this project is to develop robust machine learning models for classifying textual data into categories of 'Sexist' or 'Racist'. Leveraging natural language processing (NLP) techniques and supervised learning algorithms, our objective is to build models that can accurately discern and categorize text-based content, empowering users to detect instances of sexism and racism within textual data.
+## OBJECTIVE
+The objective of this project is to develop robust machine learning models for classifying textual data into categories of 'Sexist' or 'Racist'. Leveraging natural language processing (NLP) techniques and supervised learning algorithms, our objective is to build models that can accurately discern and categorize text-based content, empowering users to detect instances of sexism and racism within textual data.
 
 ## IDEA
 Given the diverse nature of the provided dataset, which encompassed various cyber crimes, our focus was on the `twitter_sexism_parsed_dataset.csv` and `twitter_racism_parsed_dataset.csv` files. We trained separate LSTM (Long Short-Term Memory) networks on these datasets, performing tokenization and lemmatization as preprocessing steps. After training, we saved the trained models. 
