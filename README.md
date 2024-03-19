@@ -3,10 +3,10 @@
 </div>
 
 ## OBJECTIVE
-The objective of this project is to develop robust machine learning models for classifying textual data into categories of 'Sexist' or 'Racist'. Leveraging natural language processing (NLP) techniques and supervised learning algorithms, our objective is to build models that can accurately discern and categorize text-based content, empowering users to detect instances of sexism and racism within textual data.
+The objective of this project is to develop robust machine learning models for classifying textual data into categories of 'Sexist' or 'Racist'. Leveraging Natural Language Processing (NLP) techniques and supervised learning algorithms, our objective is to build models that can accurately discern and categorize text-based content, empowering users to detect instances of sexism and racism within textual data.
 
 ## IDEA
-Given the diverse nature of the provided dataset, which encompassed various cyber crimes, our focus was on the `twitter_sexism_parsed_dataset.csv` and `twitter_racism_parsed_dataset.csv` files. We trained separate Long Short-Term Memory(LSTM) networks on these datasets, performing tokenization and lemmatization as preprocessing steps. After training, we saved the trained models. 
+Given the diverse nature of the provided dataset, which encompassed various cyber crimes, our focus was on the `twitter_sexism_parsed_dataset.csv` and `twitter_racism_parsed_dataset.csv` files. We trained separate Long Short-Term Memory (LSTM) networks on these datasets, performing tokenization and lemmatization as preprocessing steps. After training, we saved the trained models. 
 
 ## Implementation
 We created `sexism_classifier.ipynb` and `racism_classifier.ipynb` notebooks for training and saving the LSTM models for sexism and racism classification respectively. These notebooks should be run first to save the trained models. Then, the `crime_classification.ipynb` notebook can be executed to load these pretrained models and classify new text data.
